@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de fotos jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Galeria de Fotos</h1>
+            <button type="button">Enviar fotos!</button>
+        </header>
+        <form>
+            <h2>Enviar nova imagem</h2>
+            <input id="endereço-da-imagem-nova" type="url" required placeholder="Digite o URL da imagem que deseja enviar aqui!">
+            <button type="submit">Enviar</button>
+            <button id="botao-cancelar" type="reset">Cancelar</button>
+        </form>
+        <form>
+            <ul>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrCJBE7h90H7LgjO0vBByI9a1XgEk4OBbLw&s" alt="Coelho">
+                    <div class="overlay-imagem-link">
+                        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrCJBE7h90H7LgjO0vBByI9a1XgEk4OBbLw&s" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://tr.rbxcdn.com/180DAY-8f5ad403401804b8c6e831109d16ce97/768/432/Image/Webp/noFilter" alt="Coelho">
+                    <div class="overlay-imagem-link">
+                        <a href="https://tr.rbxcdn.com/180DAY-8f5ad403401804b8c6e831109d16ce97/768/432/Image/Webp/noFilter" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://static.wikia.nocookie.net/80cfec80-bf9a-4593-9b5b-735f93b885c5/scale-to-width/755" alt="Coelho">
+                    <div class="overlay-imagem-link">
+                        <a href="https://static.wikia.nocookie.net/80cfec80-bf9a-4593-9b5b-735f93b885c5/scale-to-width/755" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho real</a>
+                    </div>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>

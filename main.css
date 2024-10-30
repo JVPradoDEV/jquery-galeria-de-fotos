@@ -1,0 +1,218 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    font-family: "Roboto","sans-sherif";
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 24px 0;
+    color : #fff;
+    background-image: linear-gradient(to right, #46238b,#3d1c80);
+    display: grid;
+    border-bottom: 16px solid #3d1c80;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+}
+
+header h1 {
+    border-radius: 10px;
+    background-color: #5028a0;
+    box-shadow: 2px 2px 1px #381b70;
+    padding: 20px 0;
+}
+
+header button {
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px #33264e;
+    margin-top: 12px;
+    font-size: large;
+    color: #fff;
+    height: 40px;
+    background-color: #9d74f0;
+    border: none;
+}
+
+header button:hover {
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: #ad8eeb;
+}
+
+form {
+    display: none;
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2 {
+    padding: 12px 0;
+}
+
+form input {
+    width: 290px;
+}
+
+form input,
+form button {
+    padding: 10px;
+}
+
+form button {
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: #7baedf;
+    box-shadow: 1px 1px 1px #486988;
+}
+
+#botao-cancelar {
+    background-color: #579ad8;
+    box-shadow: 1px 1px 1px #2d5070;
+}
+
+#botao-cancelar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #71a4d4;
+}
+
+form button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: #7498be;
+}
+
+form input {
+    border-radius: 4px;
+    border:none;
+    color: #fff;
+    background-color: #b3cce7;
+    box-shadow: 1px 1px 1px #545f6b;
+}
+
+form input::placeholder {
+    color: #fcfcfc;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    list-style: none;
+    max-width: 25%;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+
+ul li img {
+    width: 100%;
+    min-height: 320px;
+}
+
+.overlay-imagem-link {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.overlay-imagem-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-imagem-link{
+    opacity: 1;
+}
+
